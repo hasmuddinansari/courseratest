@@ -106,11 +106,12 @@ h2 {
 @media (max-width: 767px) {
 	h2 {
 		position: absolute;
-		top:-18px;
+		top:-19px;
 		right:17px;
 	}
 	p {
 		margin-right:15px;
 	}
 }
+
 
