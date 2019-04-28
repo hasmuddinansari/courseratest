@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color:#ffe8ee;
+}
+h1 {
+	margin-bottom: 15px;
+	text-align: center;
+	background-color:red;
+	color:white;
+	border:1px solid black;
+	padding:5px;
+	box-shadow:1px 1px 1px black;
+
+
+}
+
+.row div {
+	position: relative;
+	margin-top:3px;
+}
+h2 {
+	position:absolute;
+	right:14px;
+	top:-13px;
+	color:white;
+	background-color:orange;
+	padding:10px;
+	height:40px;
+	border:1px solid black;
+	box-shadow:1px 1px 2px grey;
+
+
+}
+p {
+  border: 1px solid black;
+  background-color:#d2d8e0;
+  width:95%;
+  height: 180px;
+  padding-top:45px;
+  font-size:16px;
+  margin-right:12px;
+  margin-left: auto;
+  font-family:sans-serif;
+  color: black;
+  box-shadow: 1px 1px 3px black;
+
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+		float:left;
+		width:33.3%;
+	}
+
+h2 {
+	position:absolute;
+	right:13px;
+	top:-5px }
+}
+
+
+
+
+/********** Tab devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+ .col-md-1, .col-md-2 {
+ 	float:left;
+ 	width:50%;
+ 
+}
+.col-md-1 h2, .col-md-2 h2 {
+		top:-5px;
+		right:;
+	}
+
+ .col-md-3 {
+		float:left;
+		width:103%;
+		margin-left:-12px;
+	}
+
+.col-md-3 p{
+	text-align: left;
+	margin-right:23px; 	
+        }
+
+  .col-md-3 h2 {
+  	top:-5px;
+  	right:25px;
+  }      
+	
+  }
+
+
+
+  /* Small devices */
+@media (max-width: 767px) {
+	h2 {
+		position: absolute;
+		top:-18px;
+		right:17px;
+	}
+	p {
+		margin-right:15px;
+	}
+}
+
